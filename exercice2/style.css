@@ -1,0 +1,38 @@
+section{
+    height:90vh;
+    border:4px solid black;
+    margin-botom:20px:
+}
+.flex-container{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    height: 100px;
+}
+.flex-item {
+    background-color: #87CEEB;
+    padding:20px;
+    margin:10px;
+
+}
+section{
+    height:90vh;
+    border:4px solid black;
+    margin-botom:20px:
+}
+.flex-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100px;
+    flex-direction: column;
+}
+.flex-item {
+    background-color: #87CEEB;
+    padding:20px;
+    margin:10px;
+
+}
+
+    
+}

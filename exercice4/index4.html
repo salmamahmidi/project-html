@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>   * {
+        box-sizing: border-box;
+   }
+   /*style the body*/
+   body{
+       front-family:sans-serif;
+       margin: 0;
+   }
+   h1{
+     margin: 0;
+     panding:30px
+   }
+   /*header/logo title*/
+   .header{
+       text-align: center ;
+       background: green;
+       color:white;
+   }
+   /*style the top navigator*/
+   .navbar{
+       display:flex;
+       background-color:gray ;
+   }
+   /*style the navigation bar links*/
+   .navbar a {
+      color: white;
+      panding:20px 20px;
+      front-size:20px;
+      text-decoration: none;
+      text-align: center;
+   }
+   /*change color on hover*/
+   .navbar a:hover{
+      background-color: white; 
+      color:black;
+   }
+   .row{
+      display:flex; 
+      flex-wrap:wrap;
+   }
+   .side{
+       flex:30%;
+       background-color:rgb(255, 0, 34) ;
+       color:azure;
+       panding:20px;
+       height: 500px;
+   }
+   .main{
+      flex: 70%;
+      background-color:rgb(51, 153, 153) 
+      color: azure;
+      front-size:24px;
+      height: 500px;
+      panding:20px;
+   }
+   .footer{
+       padding:5px;
+       color:azure;
+       text-align:center;
+       background: grey;
+   }
+   @media screen and (max-width:700px){
+       .row, .navbar{
+           flex-direction:colomn;
+       }
+   }
+   
+   </style>
+</head>
+<body>
+               
+
+
+<!--header-->
+<div class="header">
+<h1>My website</h1>
+
+</div>
+<!--navigation bar-->
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Product</a>
+    <a href="#">contact</a>
+    <a href="#">about us</a>
+</div>
+<!--the flexible grid(content)-->
+ <div class="row">
+    <div class="side">
+ <h2>about Me</h2>
+ <p>lorem ipsum dolor sit amet consecteur adipiscing elit.distinctio</p>
+    </div>
+    <div class="main">
+        <h2> Main content</h2>
+        <p>lorem ipsum dolor sit amet consecteur adipiscing elit.distinctio</p>
+    </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+       <h2>Footer</h2>
+    </div>
+
+
+
+
+
+</div>
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
